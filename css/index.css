@@ -1,0 +1,122 @@
+/* Reset de estilos padrão do navegador */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('BG.jpg'); /* Substitua 'caminho-para-sua-imagem.jpg' pelo caminho correto da sua imagem de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 1080px; /* Largura máxima definida como 1080px */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent; /* Fundo transparente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px; /* Borda arredondada */
+}
+
+section {
+    margin-bottom: 30px; /* Espaçamento entre as seções */
+    padding: 20px;
+    border: none; /* Remover a borda */
+    border-radius: 5px; /* Borda arredondada para as seções */
+}
+
+h1 {
+    font-size: 36px; /* Tamanho da fonte do título principal */
+    background-color: transparent; /* Fundo transparente */
+    padding: 0; /* Remover preenchimento */
+    margin: 0; /* Remover margem */
+    color: #fff; /* Cor do texto como branco */
+}
+
+h2 {
+    font-size: 24px; /* Tamanho da fonte para títulos secundários */
+    color: #fff; /* Cor do texto como branco */
+}
+
+p {
+    font-size: 16px; /* Tamanho da fonte para o texto do parágrafo */
+    line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
+    color: #fff; /* Cor do texto como branco */
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+/* Estilos para o formulário */
+form {
+    background-color: #000; /* Fundo preto */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px; /* Espaçamento superior */
+    color: #fff; /* Cor do texto como branco */
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px; /* Espaçamento inferior entre as perguntas */
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Espaçamento inferior entre os campos */
+    border: none;
+    border-radius: 5px;
+    background-color: #333; /* Cor de fundo dos campos (cinza escuro) */
+    color: #fff; /* Cor do texto dos campos como branco */
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; /* Espaçamento superior entre o botão e os campos */
+}
